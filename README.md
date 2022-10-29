@@ -12,7 +12,7 @@ If you don't want to copy the script to the $PATH (/usr/bin), comment the corres
 
     phpngk index.php
 
-**-n**: turns on ngrok. The link generated is opened on browser, shown on console and copied to your clipboard
+**-n**: turns on ngrok. The link generated is opened on browser, shown on console and copied to your clipboard.
 
 **-nq**: turns on ngrok, show the link, copies it to your clipboard and generate a qr code in current dir. Automatically opened with `feh`.
 
