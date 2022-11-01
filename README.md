@@ -4,7 +4,7 @@ PHPNgk is a bash script that automates opening a file on a local **PHP** server 
 It's use is primary focused on students (like me) who are working with quick, regular assignments, which are being opened, closed and sended to revision through Ngrok on a daily basis.
 
 # Installation
-Clone the repo and run `setup.sh` as **sudo**. At some point it will ask you to enter your **Ngrok Authtoken** (found in the [ngrok website](https://ngrok.com/)), paste it and you are ready to go.
+Clone the repo, give execution permises (`chmod +x setup.sh`) and run `setup.sh` as **sudo**. At some point it will ask you to enter your **Ngrok Authtoken** (found in the [ngrok website](https://ngrok.com/)), paste it and you are ready to go.
 
 If you don't want to copy the script to the $PATH (/usr/bin), comment the corresponding function at the end of the script.
 # Usage
