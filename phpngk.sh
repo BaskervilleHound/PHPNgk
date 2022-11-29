@@ -26,7 +26,7 @@ $localphp -S localhost:$localport | eval "$url"
 }
 
 openngrok (){
-  ngrok http 8080 --log stdout > ngrok.log & sleep 1
+  ngrok http 8080 --log stdout > /dev/null 2>&1 & sleep 1
   nlink=$(curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"https:..([^"]*).*/\1/p')
   echo "LINK: $nlink"
   echo "$nlink" | xclip -selection clipboard
